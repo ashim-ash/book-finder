@@ -12,5 +12,5 @@ app.use(cors());
 app.use("/api", queryRouter);
 
 app.listen(3000, () => {
-  console.log("data server listening on 3000");
+  console.log("query server listening on 3000");
 });
